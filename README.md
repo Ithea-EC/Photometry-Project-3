@@ -11,7 +11,7 @@ Contact
 
 # Methodology
 1. Data Acquisition:
-2. Filtering Logic:We implemented code that finds all the stars in the cluster and gives data about them.
+2. Filtering Logic: We implemented code that finds all the stars in the cluster and gives data about them.
 3. Output: Results take the magnitude and display them in a CMD graph to analyze what type of stars live in this cluster.
 
 # How To Run
