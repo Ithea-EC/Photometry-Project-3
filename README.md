@@ -1,4 +1,4 @@
-# Project Goals
+# Photometry of M16 (The Eagle Nebula): Project Goals
 The objective of this tool is to perform an analysis of stars in the M16 star cluster by creating a 2D Gaussian PSF model and radial profile of 10 stars in the cluster. After the model fitting, a CMD diagram is used to analyze the evolutionary status of the stars in the cluster.
 
 # Table of Contents
@@ -12,10 +12,10 @@ The objective of this tool is to perform an analysis of stars in the M16 star cl
 <!-- * [License](#license) -->
 
 # Methodology
-1. Data Acquisition: We downloaded an HST file from mast and used dao finder to get data from the file.
-2. Filtering Logic: We used the package daofinder that finds all the stars in the cluster and gives data about them in a table.
-3. Output: Results take the magnitude and display them in a CMD graph to analyze what evolutionary type of stars live in this cluster.
-4. Organization: We created a class that creates the Gaussian PSF fit, and the radial profile and graphes them. We just give the specific star x and y coords and initialize the class to display the Gaussian PSF fit and radial profile.
+1. Data Acquisition: We downloaded an HST file from the MAST Archive and used DAOStarFinder, a photutils package, to access data from the file.
+2. Filtering Logic: We used DAOFinder to detect each star and display each star's data in a table.
+3. Output: For each star, create a 2D Gaussian PSF model and a corresponding radial profile magnitude and display them in a CMD graph to analyze what evolutionary type of stars live in this cluster.
+4. Organization: We created a class that creates the Gaussian PSF fit, and the radial profile highlights the quality of the fit. We input  the specific x and y coordinates of each star, and initialize the class to display the Gaussian PSF fit and radial profile.
 
 # Technologies Used
 * Astropy
