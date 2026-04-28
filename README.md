@@ -1,19 +1,27 @@
 # Project Goals
-The objective of this tool is to perform an analysis of stars in the M16 cluster by creating a Gaussian Fit graph and radial profile of 10 starss in the M16 cluster. Then we plot a CMD diagram to analyze the evolutionary status of the stars in this cluster.
+The objective of this tool is to perform an analysis of stars in the M16 star cluster by creating a 2D Gaussian PSF model and radial profile of 10 stars in the cluster. After the model fitting, a CMD diagram is used to analyze the evolutionary status of the stars in the cluster.
 
 # Table of Contents
-1. Methodology
-2. How to Run
-3. Project Status
-4. AI Contribution
-5. Acknowledgements
-6. Contact
+* [Methodology](#methodology)
+* [Technologies Used](#technologies-used)
+* [How to Run](#how-to-run)
+* [Project Status](#project-status)
+* [AI Contribution](#ai-contribution)
+* [Acknowledgements and Sources](#acknowledgements-and-sources)
+* [Contact](#contact)
+<!-- * [License](#license) -->
 
 # Methodology
 1. Data Acquisition: We downloaded an HST file from mast and used dao finder to get data from the file.
 2. Filtering Logic: We used the package daofinder that finds all the stars in the cluster and gives data about them in a table.
 3. Output: Results take the magnitude and display them in a CMD graph to analyze what evolutionary type of stars live in this cluster.
-4. Organization: We created a class that creates the Gaussian PSF fit, and the radial profile and graphes them. We just give the specific star x and y coords and initialize the class to display the Gaussian PSF fit and radial profile. 
+4. Organization: We created a class that creates the Gaussian PSF fit, and the radial profile and graphes them. We just give the specific star x and y coords and initialize the class to display the Gaussian PSF fit and radial profile.
+
+# Technologies Used
+* Astropy
+* Numpy  
+* Photutils
+* Matplotlib 
 
 # How To Run
 1. Clone the repo
@@ -21,7 +29,7 @@ The objective of this tool is to perform an analysis of stars in the M16 cluster
 3. Run the main script
 
 # Project Status
-Ongoing
+Complete
 
 # AI Contribution
 There was no AI used in the making of this project.
