@@ -22,7 +22,7 @@ The objective of this tool is to perform an analysis of stars in the M16 cluster
 # Project Status
 Ongoing
 
-# AI COntribution
+# AI Contribution
 There was no AI used in the making of this project.
 
 # Acknowledgements and Sources
