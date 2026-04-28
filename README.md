@@ -12,7 +12,7 @@ The objective of this tool is to perform an analysis of stars in the M16 cluster
 # Methodology
 1. Data Acquisition: We downloaded an HST file from mast and used dao finder to get data from the file.
 2. Filtering Logic: We used the package daofinder that finds all the stars in the cluster and gives data about them in a table.
-3. Output: Results take the magnitude and display them in a CMD graph to analyze what evelotuionary type of stars live in this cluster.
+3. Output: Results take the magnitude and display them in a CMD graph to analyze what evolutionary type of stars live in this cluster.
 4. Organization: We created a class that creates the Gaussian PSF fit, and the radial profile and graphes them. We just give the specific star x and y coords and initialize the class to display the Gaussian PSF fit and radial profile. 
 
 # How To Run
