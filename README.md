@@ -1,18 +1,18 @@
 # Project Goals
-The objective of this tool is to perform an analysis of stars in a star cluster based on their positions in the cluster.
+The objective of this tool is to perform an analysis of stars in the M16 cluster by creating a Gaussian Fit graph and radial profile of 10 starss in the M16 cluster. Then we plot a CMD diagram to analyze the evolutionary status of the stars in this cluster.
 
 # Table of Contents
-Technologies Used
-Methodology
-How to Run
-Project Status
-Acknowledgements
-Contact
+1. Methodology
+2. How to Run
+3. Project Status
+4. AI Contribution
+5. Acknowledgements
+6. Contact
 
 # Methodology
-1. Data Acquisition:
-2. Filtering Logic: We implemented code that finds all the stars in the cluster and gives data about them.
-3. Output: Results take the magnitude and display them in a CMD graph to analyze what type of stars live in this cluster.
+1. Data Acquisition: We downloaded an HST file from mast and used dao finder to get data from the file.
+2. Filtering Logic: We used the package daofinder that finds all the stars in the cluster and gives data about them in a table.
+3. Output: Results take the magnitude and display them in a CMD graph to analyze what evelotuionary type of stars live in this cluster.
 
 # How To Run
 1. Clone the repo
@@ -21,6 +21,9 @@ Contact
 
 # Project Status
 Ongoing
+
+# AI COntribution
+There was no AI used in the making of this project.
 
 # Acknowledgements and Sources
 https://docs.astropy.org/en/stable/api/astropy.nddata.Cutout2D.html
